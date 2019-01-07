@@ -3,4 +3,7 @@
 ---
 fixtures:
   forge_modules:
-#     stdlib: "puppetlabs/stdlib"
+     stdlib: "puppetlabs/stdlib"
+  repositories:
+    repo: "gitlab.virtua.vm:puppet/profiles.git"
+    branch: development
