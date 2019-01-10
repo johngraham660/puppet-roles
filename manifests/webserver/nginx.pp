@@ -5,6 +5,6 @@
 # @example
 #   include roles::webserver::nginx
 class roles::webserver::nginx {
-  include profile::base
-  include profile::nginx
+  include profiles::base
+  include profiles::nginx
 }

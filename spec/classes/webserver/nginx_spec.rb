@@ -6,6 +6,7 @@ describe 'roles::webserver::nginx' do
       let(:facts) { os_facts }
 
       it { is_expected.to compile }
+      it { is_expected.to contain_class('roles::webserver::nginx') }
     end
   end
 end

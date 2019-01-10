@@ -6,6 +6,7 @@ describe 'roles::webserver::apache' do
       let(:facts) { os_facts }
 
       it { is_expected.to compile }
+      it { is_expected.to contain_class('roles::webserver::apache') }
     end
   end
 end

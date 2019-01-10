@@ -5,6 +5,6 @@
 # @example
 #   include roles::haproxy
 class roles::haproxy {
-  include profile::base
-  include profile::haproxy
+  include profiles::base
+  include profiles::haproxy
 }

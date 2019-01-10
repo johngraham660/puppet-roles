@@ -5,6 +5,6 @@
 # @example
 #   include roles::ciserver
 class roles::ciserver {
-  include profile::base
-  include profile::ciserver
+  include profiles::base
+  include profiles::ciserver
 }

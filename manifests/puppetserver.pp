@@ -5,6 +5,6 @@
 # @example
 #   include roles::puppetserver
 class roles::puppetserver {
-  include profile::base
-  include profile::puppetserver
+  include profiles::base
+  include profiles::puppetserver
 }

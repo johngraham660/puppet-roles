@@ -5,6 +5,6 @@
 # @example
 #   include roles::database::postgres
 class roles::database::postgres {
-  include profile::base
-  include profile::postgres
+  include profiles::base
+  include profiles::postgres
 }

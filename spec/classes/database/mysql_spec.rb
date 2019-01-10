@@ -6,6 +6,7 @@ describe 'roles::database::mysql' do
       let(:facts) { os_facts }
 
       it { is_expected.to compile }
+      it { is_expected.to contain_class('roles::database::mysql') }
     end
   end
 end

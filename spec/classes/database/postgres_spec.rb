@@ -6,6 +6,7 @@ describe 'roles::database::postgres' do
       let(:facts) { os_facts }
 
       it { is_expected.to compile }
+      it { is_expected.to contain_class('roles::database::postgres') }
     end
   end
 end

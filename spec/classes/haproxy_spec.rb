@@ -6,6 +6,7 @@ describe 'roles::haproxy' do
       let(:facts) { os_facts }
 
       it { is_expected.to compile }
+      it { is_expected.to contain_class('roles::haproxy') }
     end
   end
 end
