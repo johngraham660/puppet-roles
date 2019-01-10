@@ -6,6 +6,8 @@ describe 'roles' do
       let(:facts) { os_facts }
 
       it { is_expected.to compile }
+
+      it { is_expected.to contain_class('roles') }
     end
   end
 end
