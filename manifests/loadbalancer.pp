@@ -3,8 +3,8 @@
 # @summary A short summary of the purpose of this class
 #
 # @example
-#   include roles::haproxy
-class roles::haproxy {
+#   include roles::loadbalancer
+class roles::loadbalancer {
   include profiles::base
   include profiles::haproxy
 }

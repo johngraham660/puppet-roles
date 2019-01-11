@@ -12,5 +12,5 @@ class roles {
   include roles::webserver::apache
   include roles::webserver::nginx
   include roles::ciserver
-  include roles::haproxy
+  include roles::loadbalancer
 }
