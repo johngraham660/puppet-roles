@@ -6,5 +6,5 @@
 #   include roles::ciserver
 class roles::ciserver {
   include profiles::base
-  include profiles::ciserver
+  include profiles::jenkins
 }
